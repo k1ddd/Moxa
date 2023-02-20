@@ -77,7 +77,7 @@ a:hover {
   background: #161513;
 }
 .black:hover {
-  background: #161513f8;
+  background: #161513e5;
 }
 
 .flex {
@@ -649,5 +649,4 @@ input::placeholder {
 
 .social__link:hover {
   fill: #e94d35;
-  background-color: red;
 }
