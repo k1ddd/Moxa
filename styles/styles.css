@@ -649,4 +649,5 @@ input::placeholder {
 
 .social__link:hover {
   fill: #e94d35;
+  background-color: red;
 }
