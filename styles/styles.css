@@ -76,6 +76,9 @@ a:hover {
 .black {
   background: #161513;
 }
+.black:hover {
+  background: #161513f8;
+}
 
 .flex {
   display: flex;
@@ -152,6 +155,13 @@ a:hover {
   color: #161513;
 }
 
+.btn:hover,
+.btn__portfolio:hover {
+  text-decoration: none;
+}
+.browse__articles a:hover {
+  text-decoration: none;
+}
 .btn__big {
   display: inline-block;
   font-family: "Bai Jamjuree", sans-serif;
@@ -405,6 +415,11 @@ a:hover {
   font-size: 18px;
   line-height: 1.77;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn__portfolio:hover {
+  background: #e94d35ce;
 }
 
 .abooutPortfolio__info {
@@ -568,6 +583,11 @@ input::placeholder {
   line-height: 1.39px;
   background-color: #131416;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  background-color: #131416ef;
 }
 
 .footer__black {
@@ -619,14 +639,12 @@ input::placeholder {
   padding-right: 112px;
   padding-top: 34px;
   padding-bottom: 26px;
+  display: flex;
+  gap: 16px;
 }
 
-.social > .social__link {
-  margin-right: 16px;
-}
-
-.social__link:last-child {
-  margin-right: 0;
+.social__link {
+  cursor: pointer;
 }
 
 .social__link:hover {
